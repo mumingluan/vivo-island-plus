@@ -28,4 +28,6 @@ Xposed API 82 只用于编译。APK 默认使用本机 Android debug keystore �
 
 原有代码采用 GPL-3.0-only，Copyright (C) 2026 Axuan。第三方代码遵循各自许可证，见 [THIRD_PARTY.md](THIRD_PARTY.md)。
 
-版本 `0.3.54`，包名 / 模块 ID：`com.axuan.vivoislandplus`。
+原子岛进程在应用初始化就绪后识别渲染接口，避免进程冷启动时只有小岛、无法展开卡片。
+
+版本 `0.3.55`，包名 / 模块 ID：`com.axuan.vivoislandplus`。

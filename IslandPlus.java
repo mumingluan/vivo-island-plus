@@ -19,7 +19,7 @@ public final class IslandPlus implements IXposedHookLoadPackage {
             return;
         }
         if ("com.vivo.systemuiplugin".equals(lp.packageName)) {
-            NativeIslandAdapter.installRenderer(lp.classLoader);
+            PluginRendererStartup.install(lp.classLoader);
             return;
         }
         if (!"com.android.systemui".equals(lp.packageName)

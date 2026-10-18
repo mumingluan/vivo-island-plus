@@ -1,2 +1,2 @@
 package com.axuan.vivoislandplus;
-final class BuildInfo { static final String SOURCE_ID = "a7f2e61ff198ab7ee824a958c3d4c91af5f35f018d51d6deed7c9120eeea22c1"; static final String VERSION = "0.3.54"; }
+final class BuildInfo { static final String SOURCE_ID = "1ec4a7ba41d89aa8687816551cde4ab96cb4a04d0f2f33a36eacb83b27b6fc69"; static final String VERSION = "0.3.55"; }
